@@ -1,0 +1,21 @@
+{
+  "name": "iris-slackbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "start": "node ./build/app.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules ./app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^5.1.0"
+  },
+  "devDependencies": {
+    "tslint-eslint-rules": "^5.4.0"
+  }
+}
