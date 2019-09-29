@@ -9,10 +9,10 @@ const SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly'];
 // created automatically when the authorization flow completes for the first
 // time.
 const TOKEN_PATH = 'token.json';
-const REDIRECT_URL = 'https://9a4207c8.ngrok.io/auth';
+const REDIRECT_URL = 'https://eb61593c.ngrok.io/auth';
 const oauth2Client = new google.auth.OAuth2(
-  '1047761845586-urbiftqu0plg77jnbqgrd37d96ri2fdv.apps.googleusercontent.com',
-  'Ak7fuYbcIAcYARmO61ksxQcE',
+  '1047761845586-iphu1hp2vdb7u591eff2mqvd481kkudf.apps.googleusercontent.com',
+  'TsrepX6LXKjC9iC6Gz3FzE-9',
   REDIRECT_URL
 );
 
