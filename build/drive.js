@@ -48,8 +48,8 @@ var SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly'];
 // created automatically when the authorization flow completes for the first
 // time.
 var TOKEN_PATH = 'token.json';
-var REDIRECT_URL = 'https://9a4207c8.ngrok.io/auth';
-var oauth2Client = new googleapis_1.google.auth.OAuth2('1047761845586-urbiftqu0plg77jnbqgrd37d96ri2fdv.apps.googleusercontent.com', 'Ak7fuYbcIAcYARmO61ksxQcE', REDIRECT_URL);
+var REDIRECT_URL = 'https://eb61593c.ngrok.io/auth';
+var oauth2Client = new googleapis_1.google.auth.OAuth2('1047761845586-iphu1hp2vdb7u591eff2mqvd481kkudf.apps.googleusercontent.com', 'TsrepX6LXKjC9iC6Gz3FzE-9', REDIRECT_URL);
 var Drive = /** @class */ (function () {
     function Drive() {
     }
