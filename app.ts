@@ -1,5 +1,4 @@
 import { DriveHandler } from './drive';
-import { WebClient } from '@slack/web-api';
 import express from 'express';
 import { createEventAdapter } from '@slack/events-api';
 import { createMessageAdapter } from '@slack/interactive-messages';
@@ -9,7 +8,6 @@ const app = express();
 const token = process.env.SLACK_BOT_TOKEN;
 const secret: any = process.env.SLACK_SIGNING_SECRET;
 
-const web = new WebClient(token);
 // Initialize using signing secret from environment variables
 const slackEvents = createEventAdapter(secret);
 const slackInteractions = createMessageAdapter(secret);
